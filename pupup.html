@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="popup-modal">
+        <!-- Slideshow container -->
+        <div class="popup__width">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade" style="display: block;">
+                <img src="https://popup.th8.xyz/wp-content/uploads/2022/08/imgmothers-day-afb-result.webp" style="width:100%">
+            </div>
+            <div class="mySlides fade" style="display: none;">
+                <img src="https://popup.th8.xyz/wp-content/uploads/2022/08/imgpslucajoker-popup-result.webp" style="width:100%">
+            </div>
+            <div class="mySlides fade" style="display: none;">
+                <img src="https://popup.th8.xyz/wp-content/uploads/2022/08/imgimage-c300-b1000-1200x1200-1-result.webp" style="width:100%">
+            </div>
+            <div class="mySlides fade" style="display: none;">
+                <img src="https://popup.th8.xyz/wp-content/uploads/2022/08/image-sga-ep14-result.webp" style="width:100%">
+            </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"></a>
+        <a id="next" class="next" onclick="plusSlides(1)"></a>
+        <div class="slider__nav">
+            <div class="slider__navlink active" onclick="currentSlide(1)"></div>
+            <div class="slider__navlink" onclick="currentSlide(2)"></div>
+            <div class="slider__navlink" onclick="currentSlide(3)"></div>
+            <div class="slider__navlink" onclick="currentSlide(4)"></div>
+        </div>
+        <div style="padding:15px;margin-top: 3%;">
+            <button id="close" class="btt-close">×</button>
+        </div>
+
+    </div>
+
+
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+
+</html>
